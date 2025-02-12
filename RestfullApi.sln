@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfullApi", "RestfullApi\RestfullApi.csproj", "{8D5B45A7-41C7-44FD-B342-F0B423780A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D5B45A7-41C7-44FD-B342-F0B423780A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5B45A7-41C7-44FD-B342-F0B423780A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5B45A7-41C7-44FD-B342-F0B423780A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5B45A7-41C7-44FD-B342-F0B423780A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A06FD2DC-CAE2-4885-AE67-7EE7BD073DBE}
+	EndGlobalSection
+EndGlobal
