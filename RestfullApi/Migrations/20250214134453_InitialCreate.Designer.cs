@@ -11,7 +11,7 @@ using RestfullApi.Data;
 
 namespace RestfullApi.Migrations
 {
-    [DbContext(typeof(ApplicationDbConext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250214134453_InitialCreate")]
     partial class InitialCreate
     {

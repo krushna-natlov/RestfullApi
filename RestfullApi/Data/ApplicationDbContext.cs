@@ -3,14 +3,15 @@ using RestfullApi.Models.Entities;
 
 namespace RestfullApi.Data
 {
-    public class ApplicationDbConext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbConext(DbContextOptions<ApplicationDbConext> options):base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
             
         }
 
         public DbSet<Employee>Employees { get; set; }
 
+        public DbSet<Department> Departments { get; set; }
     }
 }
